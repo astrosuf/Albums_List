@@ -7,7 +7,7 @@ const Button = ({onPress,children}) => { //onPress here is from the props, not t
 
     return (
         <TouchableOpacity onPress={onPress} style = {buttonStyle}>
-            <Text style= {textStyle}> {children}</Text> 
+            <Text style= {textStyle}>{children}</Text> 
         </TouchableOpacity>
     );
 }
